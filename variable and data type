@@ -1,0 +1,79 @@
+# this is how we write comments in Python
+
+#first variables
+
+age = 25
+name = "Alice"
+
+# the second variable is String
+# you can use single quote also
+
+name = 'Alice'
+
+# Integers (int): Whole numbers without a decimal point.
+
+my_age = 25
+print(my_age)
+
+# Floats (float): Numbers with decimal points.
+
+pi = 3.14
+print(pi)
+
+# Strings (str): Text enclosed in single or double quotes.
+
+greeting = "Hello, world!"
+print(greeting)
+
+# Booleans (bool): True or False values, representing binary decisions.
+
+is_python_fun = True
+
+# Lists: Ordered collections of items, mutable.
+
+fruits = ["apple", "banana", "cherry"]
+
+# Tuples: Ordered collections of items, immutable.
+
+coordinates = (3, 4)
+
+# Dictionaries: Key-value pairs for efficient data retrieval.
+
+person = {"name": "Alice", "age": 25}
+
+# Creating and Printing Variables:
+
+name = "Bob"
+age = 30
+print(name)
+print(age)
+
+
+# Working with Numbers:
+
+
+num1 = 10
+num2 = 5
+sum_result = num1 + num2
+print("Sum:", sum_result)
+
+# Playing with Strings:
+
+greeting = "Hello"
+name = "Alice"
+message = greeting + ", " + name + "!"
+print(message)
+
+
+# Exploring Lists:
+
+fruits = ["apple", "banana", "cherry"]
+print(fruits[0])  # Accessing the first element
+fruits.append("orange")  # Adding an item
+print(fruits)
+
+# Tinkering with Dictionaries:
+
+person = {"name": "Alice", "age": 25}
+print("Name:", person["name"])
+print("Age:", person["age"])
